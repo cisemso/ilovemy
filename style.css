@@ -3,7 +3,10 @@
 }
 
 body {
-	background-image: <img src="https://www.creativefabrica.com/wp-content/uploads/2023/04/19/Love-Graphics-67598601-1-580x445.png">
+	background-image: url(love.png)
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
 }
 
 h1 {
