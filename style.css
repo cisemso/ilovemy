@@ -1,0 +1,95 @@
+* {
+	text-align: center;
+}
+
+
+body {
+	background-image: url(love.png);
+	background-size: cover;
+}
+
+h1 {
+	color: darkred;
+	text-align: left;
+	border: 5px dashed darkred;
+	padding: 20px;
+	margin: 20px 40px 20px 40px;
+	cursor: pointer;
+}
+
+h2 {
+	color: mediumvioletred;
+	text-align: right;
+	border: 5px dotted mediumvioletred;
+	margin: 20px 40px 20px 40px;
+	padding: 20px;
+}
+
+h6 {
+	color: lightpink;
+	text-align: left;
+	border: 5px solid lightpink;
+	padding: 20px;
+	margin: 20px 40px 20px 40px;
+}
+
+.commentary {
+	color: darkgoldenrod;
+}
+
+.strongcommentary {
+	color: darkslateblue;
+	border: 2px solid darkslateblue;
+	padding: 20px;
+	margin: 20px 40px 20px 40px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: %200;
+	font-family: "tahoma", verdana, helvetica;
+}
+
+.question {
+	color: seagreen;
+}
+
+.sublist {
+	color: white;
+}
+
+#div1 {
+	background-color: rgba(110, 50, 43, 0.6);
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	margin: 20px;
+	transition: all 0.7s;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+
+span {
+	font-size: 5em;
+}
+
+footer {
+	clear: both;
+	color: indianred;
+	border: 10px solid indianred;
+	padding: 20px;
+	margin: 20px 40px 20px 40px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: %200;
+	text-align: center;
+	background-color: rgba(240, 50, 20, 0.3);
+}

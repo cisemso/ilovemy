@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register</title>
+</head>
+<body>
+	<!--USE GET NOT POST-->
+	<form method="GET"><meta charset="utf-8">
+		Do you think he's cute: <input type="text" name="cuteness" required><br>
+		Do you think he's gentle: <input type="text" name="gentleness" required><br>
+		Do you think he's smart: <input type="text" name="smartness" required><br>
+		In total how much do you grade him out of ten: <input type="number" min="0" max="10" name="grade"><br>
+		When were you born: <input type="date" name="birthday" required><br>
+		What is your e-mail adress: <input type="email" name="email" required><br>
+		What is your password: <input type="password" min="5" name="password"><br>
+		What is your gender:<br> 
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio"name="gender" value="male">Male<br>
+		<input type="radio"name="gender" value="other">Other<br>
+		Do you also have pets: <br>
+		<input type="checkbox" name="cat"> Cat<br>
+		<input type="checkbox" name="dog" value="Dog"> Dog<br>
+		<input type="checkbox" name="fish"> Fish<br>
+		<input type="checkbox" name="turtle"> Turtle<br>
+		<input type="checkbox" name="rabbit"> Rabbit<br>
+		<input type="checkbox" name="bird"> Bird because I am a psychopath<br>
+		Ok, let's go back to my dog:<br>
+		Would you like to meet him in person: <br>
+		<select name="meet">
+			<option value="yes" name="yes">Yes!</option>
+			<option value="no" name="no">No!</option>
+			<option value="maybe" name="maybe">Maybe!</option>
+		</select><br>
+		And overall your feelings are that:<br>
+		<input type="submit" value="I love him!"><br>
+		<input type="reset">
+	</form>
+
+</body>
+</html>
