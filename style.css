@@ -35,7 +35,7 @@ h6 {
 }
 
 .commentary {
-	color: darkgoldenrod;
+	color: yellow;
 }
 
 .strongcommentary {
@@ -59,7 +59,7 @@ h6 {
 }
 
 #div1 {
-	background-color: rgba(110, 50, 43, 0.6);
+	background-color: rgba(110, 50, 43, 0.3);
 }
 
 .container {
